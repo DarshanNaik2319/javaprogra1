@@ -1,7 +1,27 @@
 package com.trnifpractice;
 
-public class Demo {
+public class Demo{
+	
+		
+		int serialnumber; // data memebrs or proprties
+		String name;
+		int age;
+		
+		void show() {
+		System.out.println(serialnumber +" "+name+" "+age);
+		}
+
+		
 public static void main(String[] args) {
-	System.out.println("Money is evrything");
+	 {
+	
+			Demo e=new Demo ();
+			
+			e.serialnumber=1;
+			e.name="rashmi";
+			e.age=25;
+			
+			e.show();
+		}
 }
 }
